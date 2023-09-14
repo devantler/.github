@@ -4,7 +4,7 @@
 
 - name: documentation
   color: '1D76DB'
-  descriptions: "Improvements or additions to documentation"
+  description: "Improvements or additions to documentation"
 
 - name: enhancement
   color: '006B75'
