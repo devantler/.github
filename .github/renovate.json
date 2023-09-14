@@ -6,5 +6,8 @@
    ],
    "flux": {
      "fileMatch": ["k8s/.+\\.yaml$"]
+   },
+   "github-actions": {
+      "enabled": false
    }
 }
