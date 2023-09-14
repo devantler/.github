@@ -12,6 +12,6 @@ jobs:
       - uses: actions/checkout@v4
       - uses: derberg/manage-files-in-multiple-repositories@v2
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.CUSTOM_TOKEN }}
           patterns_to_include: '.github/workflows'
           patterns_to_ignore: '.github/workflows/global-workflows.yaml'
