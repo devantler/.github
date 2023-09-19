@@ -2,7 +2,7 @@ name: Global Workflows
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
   workflow_dispatch:
 
 jobs:
@@ -13,8 +13,8 @@ jobs:
       - uses: derberg/manage-files-in-multiple-repositories@v2
         with:
           github_token: ${{ secrets.CUSTOM_TOKEN }}
-          patterns_to_include: '.github/workflows'
-          patterns_to_ignore: '.github/workflows/global-workflows.yaml'
+          patterns_to_include: ".github/workflows"
+          patterns_to_ignore: ".github/workflows/global-workflows.yaml"
   replicate_renovate_config:
     runs-on: ubuntu-latest
     steps:
@@ -22,4 +22,4 @@ jobs:
       - uses: derberg/manage-files-in-multiple-repositories@v2
         with:
           github_token: ${{ secrets.CUSTOM_TOKEN }}
-          patterns_to_include: '.github/renovate.json'
+          patterns_to_include: ".github/renovate.json"

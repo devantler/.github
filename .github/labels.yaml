@@ -1,20 +1,19 @@
 - name: bug
-  color: 'B60205'
+  color: "B60205"
   description: "Something isn't working"
 
 - name: documentation
-  color: '1D76DB'
+  color: "1D76DB"
   description: "Improvements or additions to documentation"
 
 - name: enhancement
-  color: '006B75'
+  color: "006B75"
   description: "New feature or request"
 
 - name: refactor
-  color: '0E8A16'
+  color: "0E8A16"
   description: "Something must be refactored."
 
 - name: research
-  color: 'FBCA04'
+  color: "FBCA04"
   description: "Something must be explored further to gain a better understanding"
-  
