@@ -60,3 +60,13 @@ jobs:
           patterns_to_include: ".github/release-drafter.yml"
           patterns_to_ignore: ""
           patterns_to_remove: ""
+  replicate_codeowners_config:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: derberg/manage-files-in-multiple-repositories@v2
+        with:
+          github_token: ${{ secrets.CUSTOM_TOKEN }}
+          patterns_to_include: ".github/CODEOWNERS"
+          patterns_to_ignore: ""
+          patterns_to_remove: ""
