@@ -7,7 +7,7 @@
   description: "Improvements or additions to documentation"
 
 - name: enhancement
-  color: "006B75"
+  color: "#006B75"
   description: "New feature or request"
 
 - name: refactor
@@ -15,17 +15,9 @@
   description: "Something must be refactored."
 
 - name: research
-  color: "FBCA04"
+  color: "D93F0B"
   description: "Something must be explored further to gain a better understanding"
 
-- name: major
-  color: "FF0000"
-  description: "Major version release (vx.0.0)"
-
-- name: minor
-  color: "FFA500"
-  description: "Minor version release (v1.x.0)"
-
-- name: patch
-  color: "00FF00"
-  description: "Patch version release (v1.0.x)"
+- name: chore
+  color: "FBCA04"
+  description: "Simple task that does not fit any of the other labels"
