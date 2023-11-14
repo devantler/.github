@@ -30,16 +30,6 @@ jobs:
           patterns_to_include: ".github/PULL_REQUEST_TEMPLATE.md"
           patterns_to_ignore: ""
           patterns_to_remove: ""
-  replicate_dependabot_config:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: derberg/manage-files-in-multiple-repositories@v2
-        with:
-          github_token: ${{ secrets.CUSTOM_TOKEN }}
-          patterns_to_include: ".github/dependabot.yaml"
-          patterns_to_ignore: ""
-          patterns_to_remove: ""
   replicate_renovate_config:
     runs-on: ubuntu-latest
     steps:
