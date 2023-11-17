@@ -1,6 +1,7 @@
 name: ✏️Documentation Task
 description: A task related to documenting code, systems or processes
 labels: ["documentation"]
+assignees: devantler
 body:
   - type: markdown
     attributes:
@@ -12,11 +13,3 @@ body:
     attributes:
       label: Description
       description: Give a brief description of the documentation task
-    validations:
-      required: true
-
-  - type: textarea
-    id: additional-information
-    attributes:
-      label: Additional Information
-      description: Optionally provide additional information on the documentation task like diagrams, links, screenshots, etc.
