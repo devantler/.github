@@ -1,6 +1,7 @@
 name: 📚Research Task
 description: A task related to information gathering
 labels: ["research"]
+assignees: devantler
 body:
   - type: markdown
     attributes:
@@ -12,11 +13,3 @@ body:
     attributes:
       label: Description
       description: Give a brief description of the research task
-    validations:
-      required: true
-
-  - type: textarea
-    id: additional-information
-    attributes:
-      label: Additional Information
-      description: Optionally provide additional information on the research task like proposed solutions, links, screenshots, etc.
