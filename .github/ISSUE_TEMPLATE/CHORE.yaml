@@ -1,6 +1,6 @@
 name: ✅Chore
 description: A general task that does not fit into any other category
-labels: ["research"]
+labels: ["chore"]
 body:
   - type: markdown
     attributes:
