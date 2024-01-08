@@ -2,22 +2,10 @@
   color: "B60205"
   description: "Something isn't working"
 
-- name: documentation
-  color: "1D76DB"
-  description: "Improvements or additions to documentation"
-
 - name: enhancement
   color: "#006B75"
   description: "New feature or request"
 
-- name: refactor
-  color: "0E8A16"
-  description: "Something must be refactored."
-
-- name: research
-  color: "D93F0B"
-  description: "Something must be explored further to gain a better understanding"
-
 - name: chore
   color: "FBCA04"
-  description: "Simple task that does not fit any of the other labels"
+  description: "General task, like writing docs, researching or refactoring."
