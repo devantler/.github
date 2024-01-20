@@ -28,9 +28,9 @@ jobs:
       - uses: derberg/manage-files-in-multiple-repositories@v2
         with:
           github_token: ${{ secrets.CUSTOM_TOKEN }}
-          patterns_to_include: ""
+          patterns_to_include: ".github/labels.yaml"
           patterns_to_ignore: ""
-          patterns_to_remove: ".github/labels.yaml"
+          patterns_to_remove: ""
   replicate_dependabot_config:
     runs-on: ubuntu-latest
     steps:
