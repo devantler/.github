@@ -21,6 +21,16 @@ jobs:
           patterns_to_ignore: ".github/workflows/global-workflows.yaml"
           patterns_to_remove: ""
           exclude_forked: true
+  replicate_labels_config:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: derberg/manage-files-in-multiple-repositories@v2
+        with:
+          github_token: ${{ secrets.CUSTOM_TOKEN }}
+          patterns_to_include: ""
+          patterns_to_ignore: ""
+          patterns_to_remove: ".github/labels.yaml"
   replicate_dependabot_config:
     runs-on: ubuntu-latest
     steps:
