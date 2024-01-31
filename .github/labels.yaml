@@ -3,9 +3,13 @@
   description: "Something isn't working"
 
 - name: enhancement
-  color: "#006B75"
+  color: "006B75"
   description: "New feature or request"
 
+- name: documentation
+  color: "ADD8E6"
+  description: "Documentation task"
+  
 - name: chore
   color: "FBCA04"
-  description: "General task, like writing docs, researching or refactoring."
+  description: "General task"
