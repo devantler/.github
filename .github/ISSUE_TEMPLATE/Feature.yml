@@ -29,8 +29,9 @@ body:
       label: Expected work done
       description: Provide a list of expected changes to implement the enhancement.
       placeholder: |
-        - #issue-number1
-        - #issue-number2
+        - Added...
+        - Updated...
+        - Deleted...
 
   - type: textarea
     id: postconditions
