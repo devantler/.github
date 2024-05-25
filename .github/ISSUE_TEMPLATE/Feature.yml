@@ -24,7 +24,7 @@ body:
         - #issue-number2
 
   - type: textarea
-    id: Expected work done
+    id: expected-work-done
     attributes:
       label: Expected work done
       description: Provide a list of expected changes to implement the enhancement.
