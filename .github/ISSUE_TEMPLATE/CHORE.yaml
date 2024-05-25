@@ -33,7 +33,14 @@ body:
     id: postconditions
     attributes:
       label: Postconditions
-      description: Provide a list of issues that depend on this particular chore.
+      description: Describe the now satisfied conditions and provide a list of issues that depend on this particular chore.
       placeholder: |
-        - #issue-number1
-        - #issue-number2
+        After implementing this chore, the following should be true:
+        
+        - Condition-1
+        - Condition-1
+
+        Given this new state, the following issues can now be implemented:
+
+        - #issue-number-1
+        - #issue-number-2
