@@ -3,13 +3,37 @@ description: A documentation task
 labels: ["documentation"]
 assignees: devantler
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Please make sure this documentation tash hasn't already been submitted by someone else by looking through other open/closed issues.
 
   - type: textarea
     id: description
     attributes:
       label: Description
-      description: Give a brief description of the feature or subject to be documented.
+      description: Give a brief description of the documentation task.
+  
+  - type: textarea
+    id: preconditions
+    attributes:
+      label: Preconditions
+      description: Provide a list of issues that this particular documentation task depends on.
+      placeholder: |
+        - #issue-number1
+        - #issue-number2
+
+  - type: textarea
+    id: expected-work-done
+    attributes:
+      label: Expected work done
+      description: Provide a list of expected changes to implement the documentation task.
+      placeholder: |
+        - Added...
+        - Updated...
+        - Deleted...
+
+  - type: textarea
+    id: postconditions
+    attributes:
+      label: Postconditions
+      description: Provide a list of issues that depend on this particular documentation task.
+      placeholder: |
+        - #issue-number1
+        - #issue-number2
