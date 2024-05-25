@@ -3,13 +3,36 @@ description: File a bug report here
 labels: ["bug"]
 assignees: devantler
 body:
-  - type: markdown
+  - type: textarea
+    id: description
     attributes:
-      value: |
-        Please make sure this bug report hasn't already been submitted by someone else by looking through other open/closed issues.
+      label: Description
+      description: Give a brief description of the bug.
+  
+  - type: textarea
+    id: preconditions
+    attributes:
+      label: Preconditions
+      description: Provide a list of issues that this particular bug depends on.
+      placeholder: |
+        - #issue-number1
+        - #issue-number2
 
   - type: textarea
-    id: bug-description
+    id: expected-work-done
     attributes:
-      label: Description of the bug
-      description: Give a brief description of the bug
+      label: Expected work done
+      description: Provide a list of expected changes to implement the bug.
+      placeholder: |
+        - Added...
+        - Updated...
+        - Deleted...
+
+  - type: textarea
+    id: postconditions
+    attributes:
+      label: Postconditions
+      description: Provide a list of issues that depend on this particular bug.
+      placeholder: |
+        - #issue-number1
+        - #issue-number2
