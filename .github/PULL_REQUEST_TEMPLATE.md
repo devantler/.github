@@ -2,16 +2,10 @@
 
 Describe your PR...
 
-## Preconditions
-
-- Depends on #pr-number
-
-## Work done
-
-- Added...
-- Updated...
-- Deleted...
-
-## Postconditions
+## Changes
 
 - Closes #issue-number
+
+## Depends on
+
+- [ ] #issue-number
