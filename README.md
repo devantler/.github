@@ -5,9 +5,9 @@ This repository contains my global GitHub settings, workflows, and templates.
 <!-- readme-tree start -->
 ```
 .
-├── .github
-│   └── workflows
-└── ISSUE_TEMPLATE
+└── .github
+    ├── ISSUE_TEMPLATE
+    └── workflows
 
 3 directories
 ```
