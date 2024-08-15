@@ -1,3 +1,7 @@
+- name: epic
+  color: "8E44AD"
+  description: "A roadmap item that is broken into many smaller tasks"
+
 - name: bug
   color: "B60205"
   description: "Something isn't working"
@@ -9,7 +13,7 @@
 - name: documentation
   color: "ADD8E6"
   description: "Documentation task"
-  
+
 - name: chore
   color: "FBCA04"
   description: "General task"
