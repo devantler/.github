@@ -1,6 +1,6 @@
 - name: epic
   color: "8E44AD"
-  description: "A roadmap item that is broken into many smaller tasks"
+  description: "A large task"
 
 - name: bug
   color: "B60205"

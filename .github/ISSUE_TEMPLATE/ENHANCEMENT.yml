@@ -13,38 +13,33 @@ body:
     attributes:
       label: Description
       description: Give a brief description of the enhancement.
-  
-  - type: textarea
-    id: preconditions
-    attributes:
-      label: Preconditions
-      description: Provide a list of issues that this particular enhancement depends on.
-      placeholder: |
-        - #issue-number1
-        - #issue-number2
 
   - type: textarea
-    id: expected-work-done
+    id: current
     attributes:
-      label: Expected work done
-      description: Provide a list of expected changes to implement the enhancement.
-      placeholder: |
-        - Added...
-        - Updated...
-        - Deleted...
+      label: Current behavior
+      description: Describe the current behavior of the system.
+      value: |
+        - Behavior 1
+        - Behavior 2
+        - Behavior 3
 
   - type: textarea
-    id: postconditions
+    id: proposed
     attributes:
-      label: Postconditions
-      description: Describe the now satisfied conditions and provide a list of issues that depend on this particular enhancement.
-      placeholder: |
-        After implementing this enhancement, the following should be true:
-        
-        - Condition-1
-        - Condition-1
+      label: Proposed behavior
+      description: Describe the proposed behavior of the system.
+      value: |
+        - Behavior 1
+        - Behavior 2
+        - Behavior 3
 
-        Given this new state, the following issues can now be implemented:
-
-        - #issue-number-1
-        - #issue-number-2
+  - type: textarea
+    id: closes
+    attributes:
+      label: Closes
+      description: List any issues that this enhancement closes.
+      value: |
+        - Closes #1
+        - Closes #2
+        - Closes #3
