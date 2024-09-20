@@ -13,33 +13,3 @@ body:
     attributes:
       label: Description
       description: Give a brief description of the enhancement.
-
-  - type: textarea
-    id: current
-    attributes:
-      label: Current behavior
-      description: Describe the current behavior of the system.
-      value: |
-        - Behavior 1
-        - Behavior 2
-        - Behavior 3
-
-  - type: textarea
-    id: proposed
-    attributes:
-      label: Proposed behavior
-      description: Describe the proposed behavior of the system.
-      value: |
-        - Behavior 1
-        - Behavior 2
-        - Behavior 3
-
-  - type: textarea
-    id: closes
-    attributes:
-      label: Closes
-      description: List any issues that this enhancement closes.
-      value: |
-        - Closes #1
-        - Closes #2
-        - Closes #3

@@ -3,7 +3,6 @@ description: A large task with a tasklist
 labels: ["epic"]
 assignees: devantler
 body:
-
   - type: textarea
     id: description
     attributes:

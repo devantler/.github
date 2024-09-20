@@ -10,31 +10,11 @@ body:
       description: Give a brief description of the bug.
 
   - type: textarea
-    id: current
+    id: steps
     attributes:
-      label: Current behavior
-      description: Describe the current behavior of the system.
+      label: Steps to Replicate
+      description: List the steps to replicate the bug.
       value: |
-        - Behavior 1
-        - Behavior 2
-        - Behavior 3
-
-  - type: textarea
-    id: proposed
-    attributes:
-      label: Proposed behavior
-      description: Describe the proposed behavior of the system.
-      value: |
-        - Behavior 1
-        - Behavior 2
-        - Behavior 3
-
-  - type: textarea
-    id: fixes
-    attributes:
-      label: Fixes
-      description: List any issues that this bug fixes.
-      value: |
-        - Fixes #1
-        - Fixes #2
-        - Fixes #3
+        1. Step 1
+        2. Step 2
+        3. Step 3
