@@ -18,3 +18,4 @@ jobs:
         with:
           config-file: "https://raw.githubusercontent.com/devantler/.github/main/labels.yaml"
           delete-other-labels: true
+          token: ${{ secrets.GITHUB_TOKEN }}
