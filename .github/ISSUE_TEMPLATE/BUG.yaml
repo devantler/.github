@@ -1,5 +1,7 @@
 name: 🐛 Bug
 description: An unexpected problem or behavior
+projects:
+  - devantler/4
 #type: Bug
 assignees: devantler
 body:

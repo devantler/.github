@@ -1,5 +1,7 @@
 name: 🎯 Epic
 description: A large task with a tasklist
+projects:
+  - devantler/4
 #type: Epic
 assignees: devantler
 body:

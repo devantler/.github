@@ -1,5 +1,7 @@
 name: 🧹 Chore
 description: A general task that does not fit into any other category
+projects:
+  - devantler/4
 #type: Task
 assignees: devantler
 body:
