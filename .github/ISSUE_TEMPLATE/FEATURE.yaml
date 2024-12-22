@@ -1,6 +1,6 @@
-name: 🚀 Enhancement
-description: Request a new feature
-labels: ["enhancement"]
+name: 🚀 Feature
+description: A request, idea, or new functionality
+type: Feature
 assignees: devantler
 body:
   - type: markdown

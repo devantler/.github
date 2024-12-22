@@ -1,6 +1,6 @@
 name: 🐛 Bug
-description: File a bug report here
-labels: ["bug"]
+description: An unexpected problem or behavior
+type: Bug
 assignees: devantler
 body:
   - type: textarea
