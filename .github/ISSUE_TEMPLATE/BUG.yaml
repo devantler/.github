@@ -1,6 +1,6 @@
 name: 🐛 Bug
 description: An unexpected problem or behavior
-type: Bug
+#type: Bug
 assignees: devantler
 body:
   - type: textarea

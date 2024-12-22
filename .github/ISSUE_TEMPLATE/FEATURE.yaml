@@ -1,6 +1,6 @@
 name: 🚀 Feature
 description: A request, idea, or new functionality
-type: Feature
+#type: Feature
 assignees: devantler
 body:
   - type: markdown

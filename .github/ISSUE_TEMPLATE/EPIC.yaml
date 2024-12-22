@@ -1,6 +1,6 @@
 name: 🎯 Epic
 description: A large task with a tasklist
-type: Epic
+#type: Epic
 assignees: devantler
 body:
   - type: textarea
