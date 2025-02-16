@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  call-readme-tree-workflow:
+  readme-tree:
     uses: devantler-tech/.github/.github/workflows/readme-tree.yaml@main
     secrets:
       APP_PRIVATE_KEY: ${{ secrets.APP_PRIVATE_KEY }}
