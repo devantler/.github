@@ -1,0 +1,12 @@
+name: 🧪 Test
+description: A task related to testing or validating a software solution
+projects:
+  - devantler/4
+type: Test
+assignees: devantler
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Give a brief description of the test.

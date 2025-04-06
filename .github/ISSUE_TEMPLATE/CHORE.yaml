@@ -1,9 +1,9 @@
 name: 🧹 Chore
-description: A general task that does not fit into any other category
+description: A general task that does not fit into other categories.
+title: "[chore]: "
+type: Chore
 projects:
-  - devantler/4
-#type: Task
-assignees: devantler
+  - devantler-tech/5
 body:
   - type: textarea
     id: description

@@ -1,9 +1,9 @@
 name: 🐛 Bug
-description: An unexpected problem or behavior
+description: An unexpected problem or behavior.
+title: "[bug]: "
+type: Bug
 projects:
-  - devantler/4
-#type: Bug
-assignees: devantler
+  - devantler-tech/5
 body:
   - type: textarea
     id: description
